@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.appandroid.DrawingView
+        android:id="@+id/drawingView"
+        android:layout_width="match_parent"
+        android:layout_height="538dp"
+        android:layout_weight="1"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="22sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/classifyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clasificar"/>
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar"/>
+</LinearLayout>
