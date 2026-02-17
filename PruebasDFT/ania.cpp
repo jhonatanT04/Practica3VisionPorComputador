@@ -22,7 +22,7 @@ Mat Ania::preprocess(Mat input)
     return bin;
 }
 
-// Extrae el contorno principal (el de mayor área)
+// Extrae el contorno principal 
 vector<Point> Ania::extractMainContour(Mat bin)
 {
     vector<vector<Point>> contours;
